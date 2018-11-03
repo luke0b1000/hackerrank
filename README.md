@@ -1,2 +1,0 @@
-# hackerrank
-Created with CodeSandbox
