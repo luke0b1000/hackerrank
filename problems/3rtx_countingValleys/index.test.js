@@ -1,5 +1,6 @@
 const countingValleys = require('./index');
 
+
 test.skip('luke test 1', () => {
     expect(countingValleys('UDDDUDUU')).toEqual(1);
 });
