@@ -1,5 +1,6 @@
 /*
 https://www.hackerrank.com/challenges/sock-merchant/problem
+Success! Just solved Sock Merchant on @HackerRank. Can you complete the challenge? http://hr.gs/eabbdd #programming
 */
 function sockMerchant(sockArray) {
     const sockTable = {};
