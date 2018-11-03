@@ -1,3 +1,7 @@
+/*
+https://www.hackerrank.com/challenges/apple-and-orange/problem
+Success! Just solved Apple and Orange on @HackerRank. Can you complete the challenge? http://hr.gs/1dqe #programming
+*/
 function countApplesAndOranges(s, t, a, b, apples, oranges) {
     //calculate distance for apple + a
     const appleFinal = apples.map(element => element + a);
