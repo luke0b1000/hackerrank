@@ -1,6 +1,6 @@
 const drawingBook = require('./index');
 
-describe('luke describe 1', () => {
+describe.skip('luke describe 1', () => {
     test('luke test 1', () => {
         expect(drawingBook(6, 2)).toEqual(1);
     });
