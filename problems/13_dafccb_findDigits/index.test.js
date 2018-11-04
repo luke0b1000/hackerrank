@@ -1,6 +1,6 @@
 const findDigits = require('./index');
 
-describe('luke describe', () => {
+describe.skip('luke describe', () => {
     test('luke test 1', () => {
         expect(findDigits(12)).toEqual(2);
     });
