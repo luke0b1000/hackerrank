@@ -1,6 +1,6 @@
 const electronicShop = require('./index');
 
-describe('luke describe 1', () => {
+describe.skip('luke describe 1', () => {
     test('luke test 1', () => {
         expect(electronicShop(10, [3, 1], [5, 2, 8])).toEqual(9);
     });
