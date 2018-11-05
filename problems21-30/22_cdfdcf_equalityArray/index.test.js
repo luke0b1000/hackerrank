@@ -1,6 +1,6 @@
 const equalityArray = require("./index");
 
-describe("luke describe 1", () => {
+describe.skip("luke describe 1", () => {
     test("luke test 1", () => {
         expect(equalityArray([3, 3, 2, 1, 3])).toEqual(2);
     });
