@@ -1,6 +1,6 @@
 const catAndMouse = require('./index');
 
-describe('luke describe 1', () => {
+describe.skip('luke describe 1', () => {
     test('luke test 1', () => {
         expect(catAndMouse(1, 2, 3)).toEqual('Cat B');
     });
