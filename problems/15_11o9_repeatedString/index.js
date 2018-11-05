@@ -1,5 +1,6 @@
 /*
 https://www.hackerrank.com/challenges/repeated-string/problem
+Success! Just solved Repeated String on @HackerRank. Can you complete the challenge? http://hr.gs/11o9 #programming
 */
 function repeatedString(mystring, num) {
     function findA(aString, numL) {
