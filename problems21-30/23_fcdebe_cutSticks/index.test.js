@@ -1,6 +1,6 @@
 const cutSticks = require("./index");
 
-describe("luke describe 1", () => {
+describe.skip("luke describe 1", () => {
     test("luke test 1", () => {
         expect(cutSticks([5, 4, 4, 2, 2, 8])).toEqual([6, 4, 2, 1]);
     });
