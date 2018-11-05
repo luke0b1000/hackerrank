@@ -1,6 +1,6 @@
 const utopianTree = require("./index");
 
-describe("luke describe 1", () => {
+describe.skip("luke describe 1", () => {
     test("luke test 1", () => {
         expect(utopianTree(0)).toEqual(1);
     });
