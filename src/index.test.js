@@ -1,0 +1,74 @@
+const designerPdf = require("./index");
+
+describe.skip("luke describe 1", () => {
+    test("luke test 1", () => {
+        expect(
+            designerPdf(
+                [
+                    1,
+                    3,
+                    1,
+                    3,
+                    1,
+                    4,
+                    1,
+                    3,
+                    2,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5
+                ],
+                "abc"
+            )
+        ).toEqual(9);
+    });
+    test("luke test 2", () => {
+        expect(
+            designerPdf(
+                [
+                    1,
+                    3,
+                    1,
+                    3,
+                    1,
+                    4,
+                    1,
+                    3,
+                    2,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    7
+                ],
+                "zabc"
+            )
+        ).toEqual(28);
+    });
+});
