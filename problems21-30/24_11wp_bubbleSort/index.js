@@ -1,6 +1,6 @@
 /*
 https://www.hackerrank.com/challenges/ctci-bubble-sort/problem
-
+Success! Just solved Sorting: Bubble Sort on @HackerRank. Can you complete the challenge? http://hr.gs/11wp #programming
 */
 function ctciBubbleSort(myArray) {
     let swapCounter = 0;
