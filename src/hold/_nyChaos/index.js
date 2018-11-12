@@ -31,7 +31,7 @@ function nyChaos(myArray) {
                 swapped = true;
             }
         }
-        if (!swapped) return myArray;
+        if (!swapped) break;
     }
     return operation;
 }
