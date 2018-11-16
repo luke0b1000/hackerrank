@@ -21,6 +21,10 @@ function balancedBrackets(myString) {
         } else {
             stack.push(currentBracket);
         }
+<<<<<<< HEAD:src/index.js
+=======
+        if (!swapped) break;
+>>>>>>> master:src/hold/_nyChaos/index.js
     }
     console.log(myArray);
     return myArray.length > 0 ? "NO" : "YES";
